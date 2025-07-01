@@ -1,0 +1,196 @@
+body{
+    color:white;
+    background-color: rgb(14, 14, 14);
+    font-family: "poppins"
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(54, 223, 90);
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    color:seagreen;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display:inline-flex;
+    justify-content: center;
+    
+}
+
+.contato {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px;
+}
+
+.contato img {
+  width: 30px;
+}
+
+.contato span {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color:greenyellow
+}
+
+#projetos {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#projetos h2 {
+  text-align: center;
+  color:aquamarine;
+  margin-bottom: 30px;
+}
+
+article {
+  background: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px green;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+article h3 {
+  margin-top: 0;
+  color: #0a9396;
+}
+
+article p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 10px 0 15px;
+}
+
+article a {
+  color: #ee6c4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+
+aside h3 {
+  margin-top: 0;
+  color: white;
+}
+
+aside p {
+  margin: 0;
+  line-height: 1.6;
+  color:white;
+  font-family: "poppins";
+}
+
+footer .direitos{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color:white
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  header img {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  section, aside {
+    padding: 10px;
+  }
+
+  .contato {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .contato img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contato span {
+    font-size: 14px;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
